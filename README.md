@@ -1,6 +1,9 @@
+
 # 🔐 Caesar Cipher Web Application
 
 A modern, user-friendly web application for encrypting and decrypting text using the Caesar cipher algorithm. Built with Flask backend and an interactive HTML/CSS/JavaScript frontend.
+
+<img width="1743" height="742" alt="Screenshot From 2026-09-22 11-10-04" src="https://github.com/user-attachments/assets/becf8651-246a-4265-8ee7-6b800fc31226" />
 
 ## 📋 Table of Contents
 
@@ -126,9 +129,10 @@ You should see:
 
 ### Example
 
-**Input Text:** "Hello World"  
-**Shift Value:** 3  
-**Encrypted:** "Khoor Zruog"
+**Input Text:** "Hello ceaser "  
+**Shift Value:** 8  
+**Encrypted:** "pmttw kmiamz"
+<img width="1743" height="742" alt="Screenshot From 2026-09-22 11-10-46" src="https://github.com/user-attachments/assets/fdb87c59-f5f8-41f6-b004-1930b08f4e11" />
 
 Shifting each letter by 3 positions in the alphabet.
 
@@ -268,22 +272,6 @@ if __name__ == '__main__':
 - Programming practice - Understand API design
 - Teaching - Demonstrate client-server communication
 
-## 🎨 Customization
-
-### Change Port
-
-Edit `app.py`:
-```python
-app.run(debug=True, port=8000)  # Default is 5000
-```
-
-### Change Theme Colors
-
-Edit `index.html` (in the `<style>` section):
-```css
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-/* Change these hex colors to your preference */
-```
 
 ### Disable Debug Mode
 
@@ -313,8 +301,6 @@ Feel free to:
 - Suggest improvements
 - Add new features
 - Improve documentation
-
-## 📞 Support
 
 If you encounter issues:
 
